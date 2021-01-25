@@ -1,0 +1,25 @@
+﻿body {
+    /*Uncomment this to enable scrolling and zooming */
+    touch-action: manipulation;
+}
+.graphviz-svg
+{
+    position: relative;
+}
+
+/* stop tooltips wrapping */
+.graphviz-svg .tooltip-inner {
+    white-space: nowrap;
+}
+
+/* stop people selecting text on nodes */
+.graphviz-svg text {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    /* -khtml-user-select: none; */
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
